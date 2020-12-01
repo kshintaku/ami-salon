@@ -160,8 +160,13 @@ nav .right-nav .lang-dropdown:hover .lang-content {
     transition: 400ms;
 }
 
-/* @media (max-width: 800px) {
-    nav {
+@media (max-width: 800px) {
+
+    nav .left-nav {
+        display: none;
+    }
+
+    /* nav {
         font-size: x-large;
     }
 
@@ -183,9 +188,9 @@ nav .right-nav .lang-dropdown:hover .lang-content {
 
     nav .left-nav #nav-icon {
         display: block;
-    }
+    } */
 
-} */
+}
 
 nav ul {
     padding: 0;
