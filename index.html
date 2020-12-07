@@ -11,60 +11,33 @@
     ></script>
     <title>Hair by Ami</title>
 </head>
-<body>
-    <nav>
-        <div class="container-nav">
-            <div class="left-nav">
-                <!-- <div id="nav-icon" onclick="toggleNav()">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div> -->
-                <a href="#" class="active">Hair by Ami</a>
-            </div>
-            <div class="right-nav">
-                <ul>
-                    <!-- <li><a href="about.html">About</a></li> -->
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="https://www.instagram.com/hairbyamiamy" class="fab fa-instagram"></a></li>
-                    <!-- <li><a href="contact.html">Contact</a></li> -->
-                    <!-- <div class="lang-dropdown">
-                        <li>
-                            <button id="lang">
-                                <i class="fas fa-globe"></i>
-                            </button>
-                            
-                        </li>
-                        <div class="lang-content">
-                            <a href="#" class="active">English</a>
-                            <a href="/ja/index.html">日本語</a>
-                        </div>
-                    </div> -->
-                </ul>
-            </div>
-            <!-- <div class="side-nav" id="side-nav">
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div> -->
-        </div>
-    </nav>
-    <div class="container">
-        <div class="container-landing">
-            <h1>Hair by Ami!</h1>
-            <h2>Coming 1/4 (Mon)</h2>
-            <div class="container-landing-info">
+<body class="is-preload">
+    <div id="wrapper">
+        <section id="main">
+            <header>
+                <h1>Hair by Ami!</h1>
+            </header>
+            <span></span>
+            <footer>
                 <h4>Moving to new location!</h4>
-                <h4>Soon to be located at</h4>
-                <h4>1860 W Carson St. Suite 103</h4>
-                <h4>Torrance CA 90501</h4>
-                <button>Book</button>
-            </div>
-        </div>
+                <h4>Soon to be located at:</h4>
+                <p>1860 W Carson St. Suite 103<br>Torrance, CA 90501</p>
+            </footer>
+        </section>
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; 2020 Hair by Ami</li>
+            </ul>
+        </footer>
     </div>
+    
+    <!-- Scripts -->
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+    </script>
     <script src="/assets/scripts/script.js"></script>
     <script src="/assets/scripts/navbar.js"></script>
 </body>
