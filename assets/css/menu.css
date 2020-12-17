@@ -14,15 +14,30 @@ h1, h2, h3, h4, p {
     text-shadow: black 2px 2px 5px;
 }
 
-table {
-    text-align: left;
-    line-height: 1.5;
-    width: 95%;
+.container-prices {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin: auto;
 }
 
+.container-landing-header {
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    text-align: left;
+    line-height: 1.5;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+}
+
 td:last-child {
-    width: 10vw;
+    width: 4 vw;
 }
 
 /* img {
@@ -268,6 +283,19 @@ button:active {
         padding-top: 2vh;
         padding-bottom: 2vh;
         align-self: center;
+    }
+
+    .container-prices {
+        flex-direction: column;
+        max-width: 400px;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    td:last-child {
+        width: 13vw;
     }
 
 }
