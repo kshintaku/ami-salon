@@ -83,17 +83,18 @@ h1, h2, h3, h4, p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: auto;
     gap: 2vw;
     margin-top: -4vh;
     z-index: 1;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
     padding-bottom: 2vh;
+    max-width: 900px;
 }
 
 .container-article-info {
     margin-top: 2vw;
     display: block;
-    width: 500px;
     background-color: rgba(0, 0, 0, 0.6);
     align-self: center;
     text-align: center;
@@ -108,6 +109,7 @@ h1, h2, h3, h4, p {
 
 iframe {
     width: 45vw;
+    max-width: 500px;
     height: 25vw;
 }
 
@@ -186,6 +188,27 @@ button {
     top: 1rem;
     right: 1rem;
 }
+
+.container-book-link {
+    margin: 2vh 0;
+}
+
+.book-appointment {
+    background-color: red;
+    border-style: none;
+    padding: 1vh 2vh;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 3vh;
+    transition: 0.3s ease-in-out;
+}
+
+.book-appointment:hover {
+    color: lightgrey;
+    transition: 0.3s ease-in-out;
+}
+
 
 .top-text {
     display: flex;
