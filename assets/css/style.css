@@ -25,6 +25,8 @@ h1, h2, h3, h4, p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* position: relative; */
+    top: 0;
 }
 
 .wrap {
@@ -95,10 +97,11 @@ h1, h2, h3, h4, p {
 .container-article-info {
     margin-top: 2vw;
     display: block;
+    min-width: 400px;
     background-color: rgba(0, 0, 0, 0.6);
     align-self: center;
     text-align: center;
-    padding: 4vh;
+    padding: 3vh;
 }
 
 .container-article-map {
@@ -280,6 +283,7 @@ button:active {
         padding-top: 2vh;
         padding-bottom: 2vh;
         align-self: center;
+        min-width: 0;
     }
 
 }

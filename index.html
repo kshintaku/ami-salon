@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css"/>
-    <!-- <link rel="stylesheet" href="/assets/css/nav.css" type="text/css"/> -->
+    <link rel="stylesheet" href="/assets/css/nav.css" type="text/css"/>
     <script
             src="https://kit.fontawesome.com/f03b43d7c4.js"
             crossorigin="anonymous"
@@ -12,6 +12,48 @@
     <title>Hair by Ami</title>
 </head>
 <body class="is-preload">
+    <nav class="navbar-fixed-top">
+        <div class="container-nav">
+            <div class="left-nav">
+                <div id="nav-icon" onclick="toggleNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="active">Hair by Ami</a>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <!-- <li><a href="about.html">About</a></li> -->
+                    <li><a href="services.html">Menu</a></li>
+                    <li><a href="policy.html">Policy</a></li>
+                    <li><a href="https://app.acuityscheduling.com/schedule.php?owner=21473339" class="nav-appointment">Book Appointment</a></li>
+                    <!-- <li><i class="fab fa-instagram"></i></li> -->
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                    <!-- <div class="lang-dropdown">
+                        <li>
+                            <button id="lang">
+                                <i class="fas fa-globe"></i>
+                            </button>
+                            
+                        </li>
+                        <div class="lang-content">
+                            <a href="#" class="active">English</a>
+                            <a href="/ja/index.html">日本語</a>
+                        </div>
+                    </div> -->
+                </ul>
+            </div>
+            <div class="side-nav" id="side-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <!-- <li><a href="about.html">About</a></li> -->
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="policy.html">Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <!-- <div class="wrap">
             <img src="images/greg-trowman-k7AvgINPgdg-unsplash.jpg" alt="">
@@ -55,6 +97,6 @@
     </div>
     </script>
     <script src="/assets/scripts/script.js"></script>
-    <!-- <script src="/assets/scripts/navbar.js"></script> -->
+    <script src="/assets/scripts/navbar.js"></script>
 </body>
 </html>

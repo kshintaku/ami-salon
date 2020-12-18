@@ -51,6 +51,7 @@ td:last-child {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 15vh;
 }
 
 .wrap {
@@ -168,7 +169,7 @@ iframe {
 } */
 
 h1 {
-    font-size: 10vw;
+    font-size: 10vh;
 }
 
 h2 {
@@ -247,7 +248,7 @@ button:active {
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 15vw;
+        font-size: 8vh;
     }
     
     h2 {
@@ -291,7 +292,7 @@ button:active {
     }
 
     table {
-        width: 90%;
+        width: 82%;
     }
 
     td:last-child {
