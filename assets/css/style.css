@@ -95,7 +95,6 @@ h1, h2, h3, h4, p {
 }
 
 .container-article-info {
-    margin-top: 2vw;
     display: block;
     min-width: 400px;
     background-color: rgba(0, 0, 0, 0.6);

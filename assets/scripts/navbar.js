@@ -16,7 +16,7 @@ window.onscroll = function () {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.backgroundColor = "transparent";
     } else {
-        document.getElementById("navbar").style.backgroundColor = "lightgrey";
+        document.getElementById("navbar").style.backgroundColor = "rgba(190, 190, 190, 0.8)";
     }
     prevScrollpos = currentScrollPos;
 };
