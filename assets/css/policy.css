@@ -83,6 +83,25 @@ td:last-child {
     width: 4 vw;
 }
 
+.container::before {
+    content: "";
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    background-image: url(../../images/john-mark-arnold-ti4kGLkGgmU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .container-prices {
     display: flex;
     flex-direction: row;
@@ -229,6 +248,13 @@ td:last-child {
     iframe {
         width: 100%;
         height: auto;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
     }
 
     .container-article {
