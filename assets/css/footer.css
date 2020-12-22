@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+    padding: 4vh 0;
+}
+
+.container-footer-left {
+    display: flex;
+    flex-direction: column;
+    color: lightgrey;
+    line-height: 2;
+    font-size: 2.5vh;
+    /* margin: auto; */
+}
+
+@media (max-width: 800px) {
+    .container-footer {
+        flex-direction: column;
+    }
+
+    .container-footer-left {
+        margin: auto;
+    }
+}
