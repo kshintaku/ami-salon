@@ -341,3 +341,7 @@ button:active {
         width: 13vw;
     }
 }
+
+g {
+    fill: grey;
+}

@@ -285,3 +285,7 @@ td:last-child {
         width: 13vw;
     }
 }
+
+g {
+    fill: grey;
+}
