@@ -313,3 +313,11 @@ nav ul {
         color: white;
     }
 } */
+
+#scissor-nav {
+    transform: rotate(-157deg);
+    margin-left: -1vh;
+    margin-bottom: -2vh;
+    height: 3vh;
+    width: 3vh;    
+}
