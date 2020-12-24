@@ -3,11 +3,6 @@
     src: url("../fonts/DancingScript-Regular.ttf");
 }
 
-@font-face {
-    font-family: OleoScript-Regular;
-    src: url("../fonts/OleoScript-Regular.ttf");
-}
-
 body {
     font-family: DancingScript-Regular;
 }

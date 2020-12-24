@@ -344,4 +344,5 @@ button:active {
 
 g {
     fill: grey;
+    transition: 400ms;
 }

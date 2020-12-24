@@ -7,8 +7,7 @@ h4,
 p {
     padding: 0;
     margin: 0;
-    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    /* font-family: Helvetica, Calibri; */
 }
 
 body {
@@ -116,6 +115,7 @@ td:last-child {
     text-align: left;
     font-size: 1.5rem;
     line-height: 1.5;
+    font-family: Helvetica, Calibri;
 }
 
 .container-landing-header {
@@ -288,4 +288,5 @@ td:last-child {
 
 g {
     fill: grey;
+    transition: 0.3s;
 }

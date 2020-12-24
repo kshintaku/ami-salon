@@ -34,6 +34,21 @@ nav .left-nav {
     transition: 0.3s;
 }
 
+#scissor-nav {
+    transform: rotate(-157deg);
+    margin-left: -1vh;
+    margin-bottom: -2vh;
+    height: 3vh;
+    width: 3vh;
+    transition: 0.3s;
+    fill: grey;
+}
+
+#scissor-nav:hover {
+    transition: 0.3s;
+    fill: white;
+}
+
 nav .left-nav span {
     display: none;
     cursor: pointer;
@@ -108,6 +123,11 @@ nav a.active {
 
 nav a:hover {
     color: white;
+    transition: 400ms;
+}
+
+nav a:hover g {
+    fill: white;
     transition: 400ms;
 }
 
@@ -314,10 +334,3 @@ nav ul {
     }
 } */
 
-#scissor-nav {
-    transform: rotate(-157deg);
-    margin-left: -1vh;
-    margin-bottom: -2vh;
-    height: 3vh;
-    width: 3vh;  
-}
