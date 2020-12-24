@@ -343,6 +343,6 @@ button:active {
 }
 
 g {
-    fill: grey;
+    fill: white;
     transition: 400ms;
 }

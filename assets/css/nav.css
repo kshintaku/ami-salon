@@ -41,7 +41,6 @@ nav .left-nav {
     height: 3vh;
     width: 3vh;
     transition: 0.3s;
-    fill: grey;
 }
 
 #scissor-nav:hover {
@@ -52,7 +51,7 @@ nav .left-nav {
 nav .left-nav span {
     display: none;
     cursor: pointer;
-    color: grey;
+    color: white;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -112,7 +111,7 @@ nav .side-nav ul {
 }
 
 nav a {
-    color: grey;
+    color: white;
     text-decoration: none;
     transition: 400ms;
 }
@@ -135,7 +134,7 @@ nav .right-nav button {
     border: none;
     outline: none;
     background-color: black;
-    color: grey;
+    color: white;
     font-size: large;
     transition: 400ms;
     height: auto;
@@ -241,7 +240,7 @@ nav ul {
     position: absolute;
     height: 9px;
     width: 100%;
-    background: grey;
+    background: white;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -306,7 +305,7 @@ nav ul {
     padding: 4px;
     border-style: solid;
     border-width: 2px;
-    border-color: grey;
+    border-color: white;
 }
 
 
