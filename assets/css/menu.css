@@ -30,6 +30,7 @@ p {
     flex-wrap: wrap;
     max-width: 800px;
     margin: auto;
+    font-weight: 900;
 }
 
 .container-landing-header {
