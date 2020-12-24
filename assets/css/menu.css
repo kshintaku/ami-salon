@@ -7,13 +7,7 @@ h4,
 p {
     padding: 0;
     margin: 0;
-    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
-
-/* body {
-    background-color: #DFE3E4;
-} */
 
 h1,
 h2,
@@ -59,14 +53,7 @@ td {
     font-size: 3vh;
 }
 
-/* img {
-    width: 100%;
-    height: 100%;
-} */
-
 .container {
-    /* width: 100%; */
-    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,21 +109,6 @@ td {
     background-size: cover;
 }
 
-/* .container-hero::before {
-    content: "";
-    z-index: -1;
-    opacity: 0.8;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0;
-    bottom: 0;
-    background-image: url("../../images/greg-trowman-k7AvgINPgdg-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-} */
-
 .container-hero-title {
     display: block;
     /* text-align: center; */
@@ -177,63 +149,24 @@ iframe {
     height: 25vw;
 }
 
-/* .container-article::before {
-    content: "";
-    z-index: -1;
-    opacity: 0.8;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0;
-    bottom: 0;
-    background-image: url("../../images/john-mark-arnold-ti4kGLkGgmU-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-} */
-/* 
-.container::before {
-    content: "";
-    z-index: -1;
-    opacity: 0.4;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0;
-    bottom: 0;
-    background-image: url("../../images/bg-hello-december\(converted\).jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
-
 h1 {
     font-size: 10vh;
 }
 
 h2 {
-    /* text-shadow: black 1px 1px 3px; */
     font-size: 4vw;
 }
 
 h3 {
-    /* text-shadow: black 1px 1px 3px; */
     font-size: 3vw;
 }
 
 h4 {
-    /* text-shadow: black 1px 1px 3px; */
     font-size: 2vw;
 }
 
 button {
-    /* display: flex; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* margin-top: 1.5rem; */
     border: 0;
-    /* align-items: flex-end; */
-    /* margin-bottom: 22%; */
     background-color: #f60003;
     font-size: 1.5rem;
     padding: 1rem 2rem;
@@ -291,17 +224,14 @@ button:active {
     }
 
     h2 {
-        /* text-shadow: black 1px 1px 3px; */
         font-size: 8vw;
     }
 
     h3 {
-        /* text-shadow: black 1px 1px 3px; */
         font-size: 6vw;
     }
 
     h4 {
-        /* text-shadow: black 1px 1px 3px; */
         font-size: 4vw;
     }
 

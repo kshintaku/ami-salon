@@ -7,8 +7,6 @@ h4,
 p {
     padding: 0;
     margin: 0;
-    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 
 body {
@@ -234,10 +232,4 @@ button:active {
     margin-bottom: -8.6vw;
     height: 13vw;
     width: 13vw;
-    
 }
-
-/* svg {
-    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 1));
-} */

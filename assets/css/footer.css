@@ -21,7 +21,6 @@ footer p {
     color: lightgrey;
     line-height: 2;
     font-size: 2.5vh;
-    /* margin: auto; */
 }
 
 @media (max-width: 800px) {
