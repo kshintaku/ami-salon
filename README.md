@@ -1,7 +1,17 @@
 # Hair salon site
 
-Testing creating a website for a friend
+Business website designed based on customer feedback
 
-## TODO
+## Requirements
 
-Need to figure out how to handle bookings, either third party or build it myself.
+Elfsight account for instagram feed. (limited to 200 page views per month)
+Acuity Booking account to handle appointments
+Netlify to serve the website
+Github to save the repository
+
+## Things I learned
+
+Communication is king - constantly communicate your progress and show updates to ensure product meets customers requirements even when provided with minimal guidance.
+Set up tasks that can be worked in parallel to allow time for feedback without blocking all progress.
+Research open source or free alternatives, don't recreate the wheel especially when you don't need to.
+Set your own opinions aside and do what the customer wants. You can give some constructive criticizm and feedback but the final decision is the one who is paying for the product.
