@@ -15,3 +15,8 @@ Communication is king - constantly communicate your progress and show updates to
 Set up tasks that can be worked in parallel to allow time for feedback without blocking all progress.
 Research open source or free alternatives, don't recreate the wheel especially when you don't need to.
 Set your own opinions aside and do what the customer wants. You can give some constructive criticizm and feedback but the final decision is the one who is paying for the product.
+
+## Things to continue working on
+
+Set up automatic syncing and updating based on Acuity scheduling to make modifications easier.
+Set up adjustable background image.
