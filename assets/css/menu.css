@@ -18,13 +18,22 @@ p {
     text-shadow: black 2px 2px 5px;
 }
 
+h4 {
+    padding-top: 3rem;
+    margin: auto;
+    text-shadow: none;
+    color: black;
+}
+
 .container-prices {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     font-weight: 900;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .container-landing-header {
@@ -36,8 +45,6 @@ table {
     text-align: left;
     line-height: 1.5;
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2vh;
 }
 
