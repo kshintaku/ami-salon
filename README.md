@@ -20,3 +20,4 @@ Set your own opinions aside and do what the customer wants. You can give some co
 
 Set up automatic syncing and updating based on Acuity scheduling to make modifications easier.
 Set up adjustable background image.
+Fix layout of menu section to have uniform widths.
