@@ -192,6 +192,25 @@ button:active {
     text-decoration: none;
 }
 
+.instagram {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.instagram a {
+    width: 15%;
+    min-width: 150px;
+}
+
+.instagram img {
+    width: 100%;
+}
+
 @media (max-width: 800px) {
     h1 {
         font-size: 15vw;
