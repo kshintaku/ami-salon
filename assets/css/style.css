@@ -28,6 +28,11 @@ iframe {
     height: 25vw;
 }
 
+.lightwidget-widget {
+    width: 100%;
+    max-width: 100%;
+}
+
 h1 {
     font-size: 10vw;
 }
