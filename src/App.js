@@ -3,7 +3,8 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Policy from './components/pages/Policy';
-import axios from 'axios';
+import Logo from './Logo';
+// import axios from 'axios';
 
 class App extends Component {
 	state = {
@@ -33,7 +34,7 @@ class App extends Component {
 								<Fragment>
 									<div className='container-hero'>
 										<div className='container-hero-title'>
-											<h1>Hair by Ami</h1>
+											<h1>Hair by Ami<Logo /></h1>
 										</div>
 									</div>
 									<div className='container-article'>

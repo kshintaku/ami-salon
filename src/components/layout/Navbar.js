@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../Logo';
 
 class Navbar extends Component {
 	constructor() {
@@ -39,7 +40,7 @@ class Navbar extends Component {
 							<span></span>
 						</div>
 						<Link to='/' className='active'>
-							Hair by Ami
+							Hair by Ami<Logo />
 						</Link>
 					</div>
 					<div className='right-nav'>
