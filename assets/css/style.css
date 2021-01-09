@@ -248,6 +248,10 @@ button:active {
         align-self: center;
         min-width: 0;
     }
+
+    .gram-overflow {
+        display: none;
+    }
 }
 
 #scissor {
