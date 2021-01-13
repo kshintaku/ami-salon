@@ -114,7 +114,8 @@ td:last-child {
     text-align: left;
     font-size: 1.5rem;
     line-height: 1.5;
-    font-family: Helvetica, Calibri;
+    font-family: Courgette-Regular;
+    /* font-family: Helvetica, Calibri; */
 }
 
 .container-landing-header {
