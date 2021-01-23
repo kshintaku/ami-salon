@@ -19,6 +19,9 @@ Business website designed based on customer feedback
 ## Things to continue working on
 
 - [ ] Set up automatic syncing and updating based on Acuity scheduling to make modifications easier.
-- [ ] Set up adjustable background image.
+- [x] Set up adjustable background image.
 - [ ] Fix layout of menu section to have uniform widths.
-- [ ] Add localization or option for different languages.
+- [x] Add localization or option for different languages.
+- [ ] Automatically redirect based on prefered language or save language selection.
+- [ ] figure out more sustainable instagram feed.
+- [ ] Add some animations to make page look better.
