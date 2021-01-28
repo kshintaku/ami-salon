@@ -26,3 +26,4 @@ Business website designed based on customer feedback
 - [ ] Automatically redirect based on prefered language or save language selection.
 - [ ] figure out more sustainable instagram feed.
 - [ ] Add some animations to make page look better.
+- [ ] Grab information from Acuity automatically.
