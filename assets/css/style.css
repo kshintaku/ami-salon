@@ -211,6 +211,10 @@ button:active {
     width: 100%;
 }
 
+.instagram :nth-child(n+13) {
+    display: none;
+}
+
 @media (max-width: 800px) {
     h1 {
         font-size: 15vw;
@@ -249,7 +253,11 @@ button:active {
         min-width: 0;
     }
 
-    .gram-overflow {
+    /* .gram-overflow {
+        display: none;
+    } */
+
+    .instagram :nth-child(n+7) {
         display: none;
     }
 }
