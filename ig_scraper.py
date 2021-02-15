@@ -16,12 +16,20 @@ headers = {
 }
 
 response = requests.request("GET", url, headers=headers)
-with open("data.txt", "w") as file:
-    file.write(response.text)
 
+# Let's create a little message to know whether something has changed
 with open("data.txt", "r") as file:
     data = file.read()
+    if data == response.text:
+        print("IG has not been updated")
+    else:
+        print("IG needs to be updated!")
 
+with open("data.txt", "w") as file:
+    file.write(response.text)
+    data = response.text
+
+# Time to create our custom JSON with only the shortcode and link to picture
 obj = json.loads(data)
 media = []
 for i in range(len(obj["edge_owner_to_timeline_media"]["edges"])):
