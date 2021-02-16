@@ -7,6 +7,22 @@ from dotenv import load_dotenv
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
+#This function will check if there is a new post(shortcode) or if all old display urls are still working
+def check_links(old_data, new_data):
+    passed = True
+    obj = json.loads(old_data)
+    new_obj = json.loads(new_data)
+    for i in range(len(obj["edge_owner_to_timeline_media"]["edges"])):
+        if obj["edge_owner_to_timeline_media"]["edges"][i]["node"]["shortcode"] == new_obj["edge_owner_to_timeline_media"]["edges"][i]["node"]["shortcode"]:
+            response = requests.request("GET", obj["edge_owner_to_timeline_media"]["edges"][i]["node"]["display_url"])
+            if response.status_code != 200:
+                print(f"Link #{i+1} needs to be updated")
+                passed = False
+        else:
+            return False
+
+    return passed
+
 # Getting information from instagram via rapidapi (limit 5 per day)
 url = "https://instagramdimashirokovv1.p.rapidapi.com/user/hairbyami2021"
 
@@ -20,8 +36,9 @@ response = requests.request("GET", url, headers=headers)
 # Let's create a little message to know whether something has changed
 with open("data.txt", "r") as file:
     data = file.read()
-    if data == response.text:
-        print("IG has not been updated")
+    if check_links(data, response.text):
+        print("All old links still work")
+        exit()
     else:
         print("IG needs to be updated!")
 
@@ -39,3 +56,4 @@ for i in range(len(obj["edge_owner_to_timeline_media"]["edges"])):
 json_out = json.dumps({"hairbyami2021": media})
 with open("ig_data.json", "w") as file:
     file.write(json_out)
+
