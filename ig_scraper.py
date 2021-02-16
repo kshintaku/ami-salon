@@ -32,6 +32,9 @@ headers = {
 }
 
 response = requests.request("GET", url, headers=headers)
+if response.status_code != 200:
+    print(f"Request failed with code: {response.status_code}.")
+    exit()
 
 # Let's create a little message to know whether something has changed
 with open("data.txt", "r") as file:
