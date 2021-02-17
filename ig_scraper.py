@@ -59,4 +59,3 @@ for i in range(len(obj["edge_owner_to_timeline_media"]["edges"])):
 json_out = json.dumps({"hairbyami2021": media})
 with open("ig_data.json", "w") as file:
     file.write(json_out)
-

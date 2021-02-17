@@ -8,6 +8,8 @@ Business website designed based on customer feedback
 * Acuity Booking account to handle appointments
 * Netlify to serve the website
 * Github to save the repository
+* RapidAPI key for Instagram scraping (limit 5 per day on free tier)
+* Python for parsing API response and outputting to JSON file loaded on pageload
 
 ## Things I learned
 
@@ -16,6 +18,7 @@ Business website designed based on customer feedback
 * Research open source or free alternatives, don't recreate the wheel especially when you don't need to.
 * Set your own opinions aside and do what the customer wants. You can give some constructive criticizm and feedback but the final decision is the one who is paying for the product.
 * Check API limits and possibly set up warnings to check when limits are close.
+* Instagram is hard to scrape and hard to find a free widget to embed on websites.
 
 ## Things to continue working on
 
