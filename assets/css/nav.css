@@ -55,6 +55,10 @@ nav .left-nav span {
     -webkit-tap-highlight-color: transparent;
 }
 
+nav .left-nav .nav-appointment-mobile {
+    display: none;
+}
+
 nav .right-nav {
     display: flex;
     justify-content: right;
@@ -177,6 +181,7 @@ nav .right-nav .lang-dropdown:hover .lang-content {
 
     nav .left-nav {
         margin-left: 1em;
+        width: 100%;
     }
 
     nav .right-nav {
@@ -189,6 +194,17 @@ nav .right-nav .lang-dropdown:hover .lang-content {
 
     nav .left-nav #nav-icon {
         display: block;
+    }
+
+    nav .left-nav .nav-appointment-mobile {
+        display: flex;
+        line-height: 1.2;
+        text-align: center;
+        align-items: center;
+        padding: 4px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
     }
 }
 
