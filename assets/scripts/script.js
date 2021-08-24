@@ -9,6 +9,7 @@ fetch("/ig_data.json")
         var img_link = document.createElement("img");
         a_tag.href = "https://www.instagram.com/p/" + data["hairbyami2021"][i]["shortcode"] + "/";
         img_link.src = data["hairbyami2021"][i]["display_url"];
+        img_link.crossOrigin = ""
         a_tag.appendChild(img_link);
         document.getElementById("instagram").appendChild(a_tag);
     }
