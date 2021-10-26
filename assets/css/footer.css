@@ -7,6 +7,14 @@ footer p {
     margin: 0;
 }
 
+footer a {
+    line-height: normal;
+}
+
+.fas {
+    line-height: 2;
+}
+
 .container-footer {
     display: flex;
     flex-direction: row;
