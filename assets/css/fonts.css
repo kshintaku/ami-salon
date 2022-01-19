@@ -20,3 +20,7 @@ body {
 footer i a {
     font-family: DancingScript-Regular;
 }
+
+#price-notice {
+    font-weight: bold;
+}
