@@ -137,6 +137,31 @@
         <!-- LightWidget WIDGET<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/95b403da665257cdb66ce5cba3dca496.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
         <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-b776a68a-6cde-4324-91db-b176e2ca13db"></div> -->
+        <div id="instagram-posts"></div>
+<div class="post"></div>
+<script>
+  async function getInstagramPosts() {
+    const response = await fetch('https://api.instagram.com/v1/users/self/media/recent?access_token=9a7549e134f9a5036aa951f1607f3e23');
+    const data = await response.json();
+    const posts = data.data;
+
+    const postsContainer = document.getElementById('instagram-posts');
+    posts.forEach(post => {
+      const postImage = post.images.standard_resolution.url;
+      const postCaption = post.caption.text;
+
+      postsContainer.innerHTML += `
+        <div class="post">
+          <img src="${postImage}" alt="Instagram Post">
+          <p>${postCaption}</p>
+        </div>
+      `;
+    });
+  }
+
+  getInstagramPosts();
+</script>
+
     </div>
     <p>Icon provided by www.icons8.com</p>
     <footer>
