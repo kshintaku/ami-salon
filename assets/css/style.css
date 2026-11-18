@@ -10,7 +10,12 @@ p {
 }
 
 body {
-    background-color: #dfe3e4;
+    background-color: #DAD0C2;
+    background-image: url("../../images/[desktop]hair_by_ami_topbanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 110% auto;
 }
 
 h1,
@@ -89,14 +94,11 @@ button {
 }
 
 .container-hero {
+    visibility: hidden;
     align-self: flex-start;
     width: 100%;
     height: 90vh;
     display: flex;
-    background-image: url("../../images/greg-trowman-k7AvgINPgdg-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: cover;
     animation: fadeIn 0.2s;
     -webkit-animation: fadeIn 0.2s;
     -moz-animation: fadeIn 0.2s;
@@ -253,6 +255,13 @@ button:active {
 }
 
 @media (max-width: 800px) {
+    body {
+    background-color: #DAD0C2;
+    background-image: url("../../images/[mobile]hair_by_ami_topbanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
     h1 {
         font-size: 15vw;
     }
